@@ -14,7 +14,7 @@ using AutoMapper;
 
 namespace CBOS.Repositories
 {
-    public class ContactRepository: IContactRepository
+    public class ContactRepository: IContactRepository 
     {
         private readonly ContactContext _context;
         private readonly IMapper _mapper;

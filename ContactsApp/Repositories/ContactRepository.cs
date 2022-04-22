@@ -17,7 +17,7 @@ namespace CBOS.Repositories
     public class ContactRepository: IContactRepository 
     {
         private readonly ContactContext _context;
-        private readonly IMapper _mapper;
+        private readonly IMapper _mapper; 
 
         public ContactRepository(ContactContext context, IMapper mapper)
         {
